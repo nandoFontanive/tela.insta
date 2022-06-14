@@ -34,6 +34,7 @@ body {
 
 .instagram-phone img {
     height: 50rem;
+    margin-bottom: 2rem;
 }
 
 .instagram-continue {
@@ -68,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 10%;
     overflow: hidden;
 }
 
@@ -84,12 +85,13 @@ body {
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: red;
     margin-top: 1rem;
 }
 
 .not-account {
     color: rgb(160, 160, 160);
+    margin: 3px;
 }
 
 .link-blue {
@@ -111,12 +113,15 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .app-download {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    margin-bottom: 5px;
+
 }
 
 .app-download:nth-child(1) {
@@ -125,6 +130,18 @@ body {
 
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
+}
+
+.app-download:nth-child(3) {
+    background-image: url('./img/f-droid-button.png');
+}
+
+.app-download:nth-child(4) {
+    background-image: url('./img/apkmirror-button.png');
+}
+
+.app-download:nth-child(5) {
+    background-image: url('./img/aptoide-button.png');
 }
 
 /* media queries */
